@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:id="@+id/item_match"
+    android:weightSum="7"
+    android:background="@android:color/darker_gray"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/item_match_team_1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="team 1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/item_match_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="18h30"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/item_match_team_2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:text="team 2"
+        android:textAlignment="center"
+        />
+    <ImageButton
+        android:src="@android:drawable/btn_radio"
+        android:id="@+id/item_match_notificaton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        />
+
+</LinearLayout>
